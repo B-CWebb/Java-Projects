@@ -36,12 +36,6 @@ public class HumanPlayer extends Player {
 		return input;
 	}
 		
-		
-		
-		
-		
-		
-		
 	@Override
 	public void notifyIllegalMove(String moveInfo) {
 		System.out.println(moveInfo);

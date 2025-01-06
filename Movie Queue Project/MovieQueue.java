@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 
 public class MovieQueue {
-	private ArrayList<Movie> movQ = new ArrayList<Movie>(10);
+	private ArrayList<Movie> movQ = new ArrayList<Movie>();
 	int lastHorror;
 	
 	public void add(Movie movie) {

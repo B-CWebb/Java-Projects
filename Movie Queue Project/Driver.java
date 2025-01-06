@@ -10,7 +10,6 @@ public class Driver {
 		ms.add(B);
 		ms.add(C);
 		
-		
 		if (C.equals(ms.remove())) {System.out.println("1");}
 		else {System.out.println("0"); }
 		if (B.equals(ms.remove())) {System.out.println("1");}
@@ -18,6 +17,4 @@ public class Driver {
 		if (A.equals(ms.remove())) {System.out.println("1");}
 		else {System.out.println("0"); }
 	}
-
-	
 }
